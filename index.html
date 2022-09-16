@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Web Site</title>
+    </head>
+    <body>
+        <main class="main">
+            <section class="left">
+                <h1 class="h1">Welcome back</h1>
+                <p class="subtitle">Welcome back! Please enter your details.</p>
+                <form class="login">
+                    <div class="login__input">
+                        <label for="email">Email</label>
+                        <input
+                            id="email"
+                            type="text"
+                            name="email"
+                            placeholder="Enter your email"
+                        />
+                    </div>
+                    <div class="login__input">
+                        <label for="password">Password</label>
+                        <input
+                            id="password"
+                            type="text"
+                            name="password"
+                            placeholder="*********"
+                        />
+                    </div>
+                    <div class="remember">
+                        <div class="login__input--check">
+                            <input id="check" type="checkbox" />
+                            <label for="check">Remember for 30 days</label>
+                        </div>
+
+                        <a href="#" class="login__a--forget">Forget password</a>
+                    </div>
+                    <button class="login__button" type="submit">Sign in</button>
+                    <button class="login__button--google" type="submit">
+                        <span><img src="./icons/icons8-google.svg" /></span>Sign
+                        in with Google
+                    </button>
+                </form>
+                <p class="signup">
+                    Don't have an account?
+                    <a class="signup__a" href="#">Sign up for free</a>
+                </p>
+            </section>
+            <section class="right">
+                <img
+                    class="right__img"
+                    src="https://media.istockphoto.com/photos/cute-young-school-girl-with-backpack-on-her-back-standing-in-library-picture-id1046635110"
+                    alt="girl in front of a bookshelf"
+                />
+                <div class="content">
+                    <h3 class="h3">
+                        "We've been using Untitled to kick start every new
+                        project and can't imagine working without it."
+                    </h3>
+                    <div class="content__rating">
+                        <h4 class="h4">Andi Lane</h4>
+                        <div>
+                            <img src="./icons/icons8-star-48.png" alt="star" />
+                            <img src="./icons/icons8-star-48.png" alt="star" />
+                            <img src="./icons/icons8-star-48.png" alt="star" />
+                            <img src="./icons/icons8-star-48.png" alt="star" />
+                            <img src="./icons/icons8-star-48.png" alt="star" />
+                        </div>
+                    </div>
+                    <div class="content-bottom">
+                        <div>
+                            <p class="description">Founder, Catalog</p>
+                            <p class="description__subtitle">
+                                Web Design Agency
+                            </p>
+                        </div>
+                        <div class="description-cta">
+                            <div class="arrow">&larr;</div>
+                            <div class="arrow">&rarr;</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
